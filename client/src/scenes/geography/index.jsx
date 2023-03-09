@@ -11,7 +11,7 @@ const Geography = () => {
 
   return (
     <Box m="1.5rem 2.5rem">
-      <Header title="GEOGRAPHY" subtitle="Find where your users are located" />
+      <Header title="GEOGRAPHY" subTitle="Find where your users are located" />
       <Box
         mt="40px"
         height="75vh"
@@ -20,6 +20,7 @@ const Geography = () => {
       >
         {data ? (
           <ResponsiveChoropleth
+            background="inharit"
             data={data}
             theme={{
               axis: {
@@ -64,7 +65,7 @@ const Geography = () => {
             projectionTranslation={[0.45, 0.6]}
             projectionRotation={[0, 0, 0]}
             borderWidth={1.3}
-            borderColor="#ffffff"
+            borderColor="#000000"
             legends={[
               {
                 anchor: "bottom-right",
@@ -92,7 +93,7 @@ const Geography = () => {
             ]}
           />
         ) : (
-          <>LLoading...</>
+          <>Loading...</>
         )}
       </Box>
     </Box>

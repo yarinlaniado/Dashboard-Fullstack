@@ -158,6 +158,7 @@ const Sidebar = ({
                   <ListItem key={text} disablePadding>
                     <ListItemButton
                       onClick={() => {
+                        if (active === lcText) setIsSidebarOpen(!isSidebarOpen);
                         navigate(`/${lcText}`);
                         setActive(lcText);
                       }}
@@ -185,7 +186,10 @@ const Sidebar = ({
                       </ListItemIcon>
                       <ListItemText primary={text} />
                       {active === lcText && (
-                        <ChevronRightOutlined sx={{ ml: "auto" }} />
+                        <ChevronRightOutlined
+                          onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+                          sx={{ ml: "auto" }}
+                        />
                       )}
                     </ListItemButton>
                   </ListItem>
