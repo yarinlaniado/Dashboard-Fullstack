@@ -23,6 +23,8 @@ function App() {
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
   return (
     <div className="app">
+      <title>Dashboard</title>
+
       <BrowserRouter>
         <ThemeProvider theme={theme}>
           <CssBaseline />
