@@ -14,7 +14,7 @@ In order to enjoy the site the most, clone the project.
 
 <h4>
 
-<a href="dashboard-frontend-m1q2.onrender.com/">View Demo</a>
+<a href="https://dashboard-frontend-m1q2.onrender.com/">View Demo</a>
 
 
 </h4>
