@@ -123,12 +123,6 @@ In order to enjoy the site the most, clone the project.
 
 ##  :toolbox: Getting Started
 
-<!-- Prerequisites -->
-
-###  :bangbang: Prerequisites
-
-This project uses nodemon to deploy node.js app.
-
 ```bash
 
 npm install
