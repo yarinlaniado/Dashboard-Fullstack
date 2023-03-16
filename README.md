@@ -197,7 +197,6 @@ Project Link: [https://github.com/yarinlaniado/Dashboard-Fullstack/](https://git
 
 ##  :gem: Acknowledgements
 
-Use this section to mention useful resources and libraries that you have used in your projects.
 
 - [Shields.io](https://shields.io/)
 
