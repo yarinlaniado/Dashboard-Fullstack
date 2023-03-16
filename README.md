@@ -208,5 +208,4 @@ Use this section to mention useful resources and libraries that you have used in
 - [Readme Template](https://github.com/othneildrew/Best-README-Template)
 
 - [Stack overflow](https://stackoverflow.com/)
-- [Colt steel](https://www.udemy.com/user/coltsteele/)
 
