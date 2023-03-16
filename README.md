@@ -39,8 +39,6 @@ In order to enjoy the site the most, clone the project.
 
 - [Getting Started](#toolbox-getting-started)
 
-* [Prerequisites](#bangbang-prerequisites)
-
 * [Installation](#gear-installation)
 
 * [Run Locally](#running-run-locally)
