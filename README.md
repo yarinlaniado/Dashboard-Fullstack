@@ -29,24 +29,12 @@ In order to enjoy the site the most, clone the project.
 
 - [About the Project](#star2-about-the-project)
 
-* [Screenshots](#camera-screenshots)
-
 * [Tech Stack](#space_invader-tech-stack)
 
 * [Features](#dart-features)
 
-* [Environment Variables](#key-environment-variables)
-
 - [Getting Started](#toolbox-getting-started)
-
-* [Installation](#gear-installation)
-
 * [Run Locally](#running-run-locally)
-
-* [Deployment](#triangular_flag_on_post-deployment)
-
-
-- [Contributing](#wave-contributing)
 
 
 
@@ -149,7 +137,7 @@ Go to the project directory
 
 ```bash
 
-cd my-project
+cd server / client
 
 ```
 
@@ -160,27 +148,24 @@ Install dependencies
 npm install
 
 ```
+for both
+
 
 Start the server
 
 ```bash
-
+cd server
 npm run dev
 
 ```
 
-<!-- Deployment -->
-
-###  :triangular_flag_on_post: Deployment
-
-To deploy this project run
+Start the client
 
 ```bash
-
+cd client
 npm run dev
 
 ```
-The project run locally on port 3000
 
 
 
